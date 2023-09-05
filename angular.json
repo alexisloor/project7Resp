@@ -95,7 +95,12 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "https://alexisloor.github.io/project7Resp/",
+            "name": "alexisloor",
+            "email": "caalloor@espol.edu.ec"
+          }
         }
       }
     }
